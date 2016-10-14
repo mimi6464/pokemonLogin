@@ -20,22 +20,22 @@ body {
 
 	/*image*/
 /*===================================*/
-.Pikachu img
+.pikachu img
  {
  	text-align: center;
-	border-radius: 50%;
+	border-radius: 100%;
 	width: 100px;
     height: 100px;
     /*background-color: red;*/
     position: relative;
-    -webkit-animation-name: Pikachu; /* Chrome, Safari, Opera */
+    -webkit-animation-name: pikachu; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
-    animation-name: Pikachu;
+    animation-name: pikachu;
     animation-duration: 2s;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes Pikachu {
+@-webkit-keyframes pikachu {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
     50%  {background-color:blue; left:200px; top:200px;}
@@ -43,8 +43,12 @@ body {
     100% {background-color:red; left:0px; top:0px;}
 }
 
+    /*submit & pok_icon*/
+/*==========================================*/
+/*.submit-pokicon {
 
-
+}
+*/
 
 
 
@@ -61,7 +65,7 @@ body {
 /* Carousel
 ================================ */
 
-.carousel-indicators {
+/*.carousel-indicators {
 	bottom: 0;
 }
 .carousel-indicators .active {
@@ -69,4 +73,4 @@ body {
 }
 .carousel-indicators li {
 	border-color: #222;
-}
+}*/
